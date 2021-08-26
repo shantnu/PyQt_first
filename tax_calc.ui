@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>462</width>
+    <height>451</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,25 +17,25 @@
    <widget class="QTextEdit" name="price_box">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>100</y>
-      <width>104</width>
-      <height>71</height>
+      <x>180</x>
+      <y>130</y>
+      <width>107</width>
+      <height>41</height>
      </rect>
     </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>120</y>
-      <width>91</width>
-      <height>31</height>
+      <x>70</x>
+      <y>140</y>
+      <width>68</width>
+      <height>19</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -47,10 +47,10 @@
    <widget class="QSpinBox" name="tax_rate">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>250</y>
-      <width>42</width>
-      <height>22</height>
+      <x>180</x>
+      <y>210</y>
+      <width>45</width>
+      <height>25</height>
      </rect>
     </property>
     <property name="value">
@@ -61,9 +61,9 @@
     <property name="geometry">
      <rect>
       <x>60</x>
-      <y>250</y>
-      <width>47</width>
-      <height>13</height>
+      <y>210</y>
+      <width>91</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -73,10 +73,10 @@
    <widget class="QPushButton" name="calc_tax_button">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>350</y>
-      <width>75</width>
-      <height>23</height>
+      <x>80</x>
+      <y>280</y>
+      <width>231</width>
+      <height>34</height>
      </rect>
     </property>
     <property name="text">
@@ -86,31 +86,31 @@
    <widget class="QTextEdit" name="results_window">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>410</y>
-      <width>131</width>
-      <height>71</height>
+      <x>80</x>
+      <y>340</y>
+      <width>241</width>
+      <height>31</height>
      </rect>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>170</x>
+      <x>50</x>
       <y>20</y>
-      <width>441</width>
-      <height>41</height>
+      <width>401</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>20</pointsize>
+      <pointsize>16</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="text">
-     <string>Sales Tax Calculator</string>
+     <string>Simple Tax Calculator</string>
     </property>
    </widget>
   </widget>
@@ -119,8 +119,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
-     <height>21</height>
+     <width>462</width>
+     <height>31</height>
     </rect>
    </property>
   </widget>
