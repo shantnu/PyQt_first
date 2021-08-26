@@ -1,7 +1,7 @@
 import sys
 from PyQt5 import QtWidgets, uic
 
-qtcreator_file  = "" # Enter file here.
+qtcreator_file  = "tax_calc.ui" # Enter file here.
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtcreator_file)
 
 
